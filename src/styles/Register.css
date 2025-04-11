@@ -1,0 +1,99 @@
+
+.Register{
+    padding: 5px;
+    height: 100vh;
+}
+
+.Register .image{
+    background-image: url(../assets/d14af43e87d50191516a16a8289b42b2.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.Register .content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);   
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.Register form input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #E5E5E5;
+    outline: none;
+    padding-left: 20px;
+}
+
+.Register form input[type=submit]{
+    background-color: #00BC7D;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.Register form label{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.Register form p{
+    text-align: center;
+}
+
+.Register .logo{
+    margin-bottom: 45px;
+}
+
+.Register .logo h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 26px;
+    margin-left: 10px;
+    color: #00BC7D;
+}
+
+.Register .logo-image{
+    display: inline-block;
+    background: linear-gradient(#00BC7D, #009966);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 5px;
+    color: white;
+    font-size: 23px;
+    vertical-align: middle;
+}
+
+.Register .logo-image span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Register .message{
+    margin-bottom: 20px;
+}
+
+.Register .message h2{
+    font-size: 27px;
+}
+
+
+.Register form p{
+    font-size: 13px;
+}
+
+.Register form p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(104, 104, 104);
+}

@@ -1,0 +1,99 @@
+
+
+.Login{
+    padding: 5px;
+    height: 100vh;
+}
+
+.Login .image{
+    background-image: url(../assets/d14af43e87d50191516a16a8289b42b2.png);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.Login .content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);   
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.Login form input{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #E5E5E5;
+    outline: none;
+    padding-left: 20px;
+}
+
+.Login form input[type=submit]{
+    background-color: #00BC7D;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.Login form label{
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.Login form p{
+    text-align: center;
+}
+
+.Login .logo{
+    margin-bottom: 45px;
+}
+
+.Login .logo h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 26px;
+    margin-left: 10px;
+    color: #00BC7D;
+}
+
+.Login .logo-image{
+    display: inline-block;
+    background: linear-gradient(#00BC7D, #009966);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 5px;
+    color: white;
+    font-size: 23px;
+    vertical-align: middle;
+}
+
+.Login .logo-image span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Login .message{
+    margin-bottom: 20px;
+}
+
+.Login .message h2{
+    font-size: 27px;
+}
+
+.Login form p{
+    font-size: 13px;
+}
+
+.Login form p a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(104, 104, 104);
+}
