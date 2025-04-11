@@ -1,4 +1,3 @@
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../styles/Login.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPersonRunning } from '@fortawesome/free-solid-svg-icons'

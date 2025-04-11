@@ -1,0 +1,30 @@
+.Logo{
+    margin-bottom: 45px;
+}
+
+.Logo h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 26px;
+    margin-left: 10px;
+    color: #00BC7D;
+}
+
+.Logo .logo-image{
+    display: inline-block;
+    background: linear-gradient(#00BC7D, #009966);
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 5px;
+    color: white;
+    font-size: 23px;
+    vertical-align: middle;
+}
+
+.Logo .logo-image span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

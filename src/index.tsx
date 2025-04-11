@@ -1,7 +1,8 @@
-import React, {Suspense, lazy} from 'react';
+import React, { lazy } from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles/index.css';
 import { createBrowserRouter, RouterProvider } from "react-router-dom"
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const App = lazy(()=> import('./App'))
 const Login = lazy(()=> import('./pages/Login'))
