@@ -1,18 +1,23 @@
 
 
-.recommended h2{
+.App h2{
   font-size: 20px;
   margin-bottom: 30px;
   font-weight: bold;
 }
 
+.item{
+  margin-bottom: 40px;
+}
+
 .recommended .image-item{
   width: 100%;
-  height: 300px;
+  aspect-ratio: 416 / 200;
   text-align: center;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 10px;
 }
 
 .recommended .info-item{
@@ -21,4 +26,41 @@
 
 .recommended .info-item h3{
   font-size: 19px;
+  margin: 25px 0;
+}
+
+.types .type-image{
+  width: 100%;
+  aspect-ratio: 200 / 200;
+  border-radius: 50%;
+  background-position: center;
+  background-size: cover;
+}
+
+.type h3{
+  margin-top: 15px;
+  font-size: 22px;
+}
+
+.image-activity{
+  width: 100%;
+  max-width: 100px;
+  aspect-ratio: 200 / 200;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.info-activity{
+  display: inline-block;
+  width: 250px;
+  padding: 0 20px;
+  vertical-align: middle;
+}
+
+.category h3{
+  font-size: 16px;
+  margin-bottom: 20px;
 }
